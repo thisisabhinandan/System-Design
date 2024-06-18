@@ -32,6 +32,15 @@ public class Slot {
     {
         this.parkVehicle=parkVehicle;
     }
-    
+    public void vacateSlot()
+    {
+        parkVehicle=null;
+        isEmpty=true;
+    }
+    public void occupySlot()
+    {
+        this.parkVehicle=parkVehicle;
+        isEmpty=false;
+    }
 
 }
