@@ -1,23 +1,23 @@
 public class Vehicle {
-    private String vechicleNo;
-    private VehicleSize vechicleSize;
-    public Vehicle(String vechicleNo, VehicleSize vehicleSize )
+    private String vehicleNo;
+    private VehicleSize vehicleSize;
+    public Vehicle(String vehicleNo, VehicleSize vehicleSize )
     {
-        vechicleNo=this.vechicleNo;
-        vehicleSize=this.vechicleSize;
+        this.vehicleNo=vehicleNo;
+        this.vehicleSize=vehicleSize;
     }
     public VehicleSize getVechicleSize() {
-        return vechicleSize;
+        return vehicleSize;
     }
     public String getVechicleNo()
     {
-        return vechicleNo;
+        return vehicleNo;
     }
-    public void setVechicleNo(String vechicleNo)
+    public void setVehicleNo(String vehicleNo)
     {
-        vechicleNo=this.vechicleNo;
+        vehicleNo=this.vehicleNo;
     }
-    public void setVechicleSize(VehicleSize vechicleSize) {
-        this.vechicleSize = vechicleSize;
+    public void setVehicleSize(VehicleSize vehicleSize) {
+        this.vehicleSize = vehicleSize;
     }
 }
