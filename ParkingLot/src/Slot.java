@@ -42,5 +42,5 @@ public class Slot {
         this.parkVehicle=parkVehicle;
         isEmpty=false;
     }
-
+sabsabskjsfhkas 
 }
